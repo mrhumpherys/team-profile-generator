@@ -1,5 +1,4 @@
 const inquirer = require('inquirer');
-
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
@@ -216,19 +215,7 @@ Follow the prompts to generate your team profile!
                     //console.log(this.info);
                 }
             }) 
-            //.then( () => {return generate()})
-            //.then(data => {
-              //  return this.writeFile(data);
-            //})
-            //.then( () => {
-              //  console.log(`
-               // Your team profile has been created! Check the dist folder 
-                //for your new team profile!
-                //`);
-            //})
-            //.catch(err => {
-              //  console.log(err);
-            //})
+            
     }
     
 }

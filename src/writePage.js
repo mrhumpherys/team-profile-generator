@@ -25,8 +25,8 @@ const writePage = data => {
     })
     .then( () => {
         console.log(`
-                Your team profile has been created! Check the dist folder 
-                for your new team profile!
+Your team profile has been created! Check the dist folder 
+for your new team profile!
                 `);
     })
     .catch(err => {
